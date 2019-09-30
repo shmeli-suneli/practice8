@@ -1,0 +1,70 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.about{
+	height: 100px;
+	background-color:mediumpurple;
+	color: white;
+	text-align: center;
+	font-size: 2.5em;
+	line-height: 100px;
+
+}
+.page{
+	min-height: 300px;
+	width: 90vw;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	align-items: stretch;
+}
+p{
+	font-size: 1.5em;
+	font-family: 'Lato', sans-serif;
+}
+
+.author{
+	height: 50%;
+	width: calc((100% - 60px)/3);
+	border: 2px solid black;
+	margin-top:50px;
+	margin-bottom: 50px;
+	
+}
+
+.pic1{
+	background-image: url(https://st.kp.yandex.net/images/actor_iphone/iphone360_136645.jpg);
+	background-size: cover;
+	background-position:center;
+	padding-bottom: 100%;
+}
+
+.pic2{
+	background-image: url(https://upload.wikimedia.org/wikipedia/en/5/5a/Chase_writer.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+
+.pic3{
+	background-image: url(https://media.snl.no/system/images/25467/standard_nesboe_jo.jpg);
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 100%;
+}
+.copyright{
+	height: 100px;
+	background-color: mediumpurple;
+	font-size: 1.5em; 
+	line-height: 100px;
+	display: flex;
+	justify-content: space-between;
+	color:white;
+}
+a{
+	color: white;
+	text-decoration: unset;
+}
+a:hover{
+	color: orange;
+}
